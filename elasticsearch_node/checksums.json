@@ -1,0 +1,22 @@
+{
+  "README.md": "d485d0b1efbf597b8dbb03dbae940efc",
+  "files/common.yaml": "c4fa590242054e926ce0f194f69ecb2c",
+  "manifests/configure.pp": "948715595978d5844d7006abddc87b82",
+  "templates/mongodb-org.repo.erb": "1466d20f1bab66294174274cb304ffc2",
+  "manifests/installel.pp": "b4a3fae4b298ed8c5e1ecb6ac5ebffde",
+  "CHANGELOG.md": "6f2b8876d7f90e921fcc5e4397682231",
+  "manifests/init.pp": "f122ecccc3079609470d0178bceb788d",
+  "manifests/params.pp": "bb82b7bf41fba509b86fbfcf5bef1e6d",
+  "metadata.json": "6272fc7dd6ea44853f6f0349f5d28bbf",
+  "manifests/install.pp": "a81db38d2bf74f0998ea09b7fc93396e",
+  "manifests/depinstall.pp": "4ecff4d4b6cfa9edb1e73fd235913b81",
+  "spec/classes/init_spec.rb": "b1c1572f80552ffa42e2ba25b97a050a",
+  "tests/init.pp": "7771b6a06ab4ae355431cd35dd4c6882",
+  "files/modtest.node.yaml": "27ba1b0e800f54af04527630282720b6",
+  "templates/elasticsearch.yml.erb": "ba97809332dd0996ad4e315e4334f045",
+  "manifests/repos.pp": "29799ec6af981a40739b436d98708857",
+  "Gemfile": "dbc1a15e3a264c03878028240cfc5d89",
+  "Rakefile": "20b80e526e351a74df2001f504e756d2",
+  "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+  "templates/elasticsearch.repo.erb": "b2ba7198b3ef5e5c609654380432d7b8"
+}
