@@ -1,4 +1,0 @@
----
-java_package::packagename: java-1.7.0-openjdk
-mongodb::version: 3.0
-mongodb::package: 3.0.3

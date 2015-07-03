@@ -1,6 +1,0 @@
----
-elasticsearch::version: 1.6
-elasticsearch::clustername: pagent2
-elasticsearch::node_name: modtest
-elasticsearch::index_number_of_shards: 5
-elasticsearch::index_number_of_replicas: 2
