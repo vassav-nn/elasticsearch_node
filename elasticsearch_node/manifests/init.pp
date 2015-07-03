@@ -10,10 +10,6 @@
 # === Authors
 # vassav
 #
-# === Copyright
-#
-# Copyright 2015 BottleRocket
-#
 
 class elasticsearch_node  {
 }

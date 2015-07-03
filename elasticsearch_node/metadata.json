@@ -1,12 +1,12 @@
 {
   "name": "vassav-elasticsearch_node",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Vasiliy V. G.",
   "summary": "Minimal full install of new node for elasticsearch claster",
   "license": "Apache 2.0",
-  "source": "local",
-  "issues_url": null,
-  "project_page": null,
+  "source": "https://github.com/vassav-nn/elasticsearch_node",
+  "project_page": "https://github.com/vassav-nn/elasticsearch_node",
+  "issues_url": "https://github.com/vassav-nn/elasticsearch_node/issues",
   "tags": ["elasticsearch", "centos", "hiera"],
   "description": "Minimal full install of new node for elasticsearch claster",
   "operatingsystem_support": [

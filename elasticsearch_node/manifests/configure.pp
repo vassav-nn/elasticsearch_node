@@ -5,14 +5,12 @@
 #
 # Vasiliy V. G.
 #
-# === Copyright
-#
-# Copyright 2015 BottleRocket
-#
 
 class elasticsearch_node::configure (
   $cluster_name = $elasticsearch_node::params::cluster_name,
   $node_name = $elasticsearch_node::params::node_name,
+  $index_number_of_shards = $elasticsearch_node::params::index_number_of_shards,
+  $index_number_of_replicas = $elasticsearch_node::params::index_number_of_replicas,
   $status = $elasticsearch_node::params::status
 ) inherits elasticsearch_node::params {
 
