@@ -5,10 +5,6 @@
 #
 # Vasiliy V. G.
 #
-# === Copyright
-#
-# Copyright 2015 BottleRocket
-#
 
 class elasticsearch_node::repos inherits elasticsearch_node::params {
   #create mongodb repo

@@ -4,20 +4,21 @@
 # === Authors
 # Vasiliy V. G.
 #
-# === Copyright
-# Copyright 2015 BottleRocket
-#
 
-class elasticsearch_node::install {
+class elasticsearch_node::install (
+  $dep_install = $elasticsearch_node::params::dep_install
+) inherits elasticsearch_node::params {
+
   class { 'elasticsearch_node::repos':
-  } ->
+  }
 
-  class { 'elasticsearch_node::depinstall':
-  } ->
+  if ($dep_install == true) {
+    class { 'elasticsearch_node::depinstall': }
+  }
 
   class { 'elasticsearch_node::installel':
   } ->
 
   class { 'elasticsearch_node::configure':
-  } ->
+  }
 }
